@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kingthings_calligraphica_liLt';
+    src: url('polices/kingthings_calligraphica_liLt/Kingthings_Calligraphica_Light-webfont.eot');
+    src: url('polices/kingthings_calligraphica_liLt/Kingthings_Calligraphica_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/kingthings_calligraphica_liLt/Kingthings_Calligraphica_Light-webfont.woff2') format('woff2'),
+         url('polices/kingthings_calligraphica_liLt/Kingthings_Calligraphica_Light-webfont.woff') format('woff'),
+         url('polices/kingthings_calligraphica_liLt/Kingthings_Calligraphica_Light-webfont.ttf') format('truetype'),
+         url('polices/kingthings_calligraphica_liLt/Kingthings_Calligraphica_Light-webfont.svg#kingthings_calligraphica_liLt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

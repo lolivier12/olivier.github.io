@@ -1,0 +1,176 @@
+/*///////////////////////////////////////      Menu et deco     //////////////////////////////////////*/
+
+
+body {
+
+    background-color: #000000;
+    
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.banniere {
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    width: 100%;
+}
+
+.moi {
+
+    margin-top: 30px;
+    margin-right: 10%;
+}
+
+
+.menu {
+
+    display: flex;
+    justify-content: space-around;
+
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+
+.link {
+    font-size: 100%;
+    color: rgb(14, 10, 10);
+
+    margin-top: 70%;
+    width: 100px;
+    display: block;
+
+}
+
+.link:hover {
+    color: rgb(235, 14, 14);
+
+}
+
+.tel {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.tel:hover {
+    background: url("img/telephone.png") no-repeat;
+}
+
+.realisation {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+
+
+
+}
+
+.realisation:hover {
+    background: url("img/dossierrealisations.png") no-repeat;
+}
+
+.loisir {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.loisir:hover {
+    background: url("img/dossierloisir.png") no-repeat;
+}
+
+.experience {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.experience:hover {
+    background: url("img/dossierexpe.png") no-repeat;
+}
+
+.photos {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.photos:hover {
+    background: url("img/dossierphoto.png") no-repeat;
+}
+
+.formation {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.formation:hover {
+    background: url("img/dossieroptions.png") no-repeat;
+}
+
+.liens {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.liens:hover {
+    background: url("img/dossierliens.png") no-repeat;
+}
+
+.reseaux {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.reseaux:hover {
+    background: url("img/dossierfavoris.png") no-repeat;
+}
+
+.competence {
+    width: 72px;
+    height: 72px;
+    background: url("img/dossierfermer.png") no-repeat;
+    display: inline-block;
+}
+
+.competence:hover {
+    background: url("img/dossiermenu.png") no-repeat;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+    }
+}
