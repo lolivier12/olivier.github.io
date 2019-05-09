@@ -2,6 +2,8 @@
 .presentation {
     width: 90%;
     margin-left: 7%;
+    
+
 
 }
 
@@ -19,6 +21,7 @@
     width: 70%;
 
 }
+
 
 .liste {
     display: flex;
@@ -50,7 +53,15 @@
 }
 
 .dessous em {
- color: rgb(124, 122, 122);
+    color: rgba(85, 83, 83, 0.938);
+}
+
+.dessous li {
+    list-style: none
+}
+
+em {
+    color: rgba(85, 83, 83, 0.938);
 }
 
 
@@ -71,6 +82,18 @@ span {
     text-decoration-line: underline;
 
 }
+.fb{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+
+}
+.fb-like{
+    padding-right: 15%;
+    padding-top: 2%;
+}
 
 a {
     font-size: 100%;
@@ -87,9 +110,73 @@ a:hover {
 ol {
     margin-left: 10%;
 }
+.lang span{
+    
+    
+    color: red;
+}
+.log span{
+    color: red;
+}
 
 li {
     margin-top: 2%;
     margin-bottom: 2%;
 
+}
+
+section{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 10%;
+    width: 100%;
+}
+th{
+    text-decoration-line: underline;
+    color: brown;
+}
+
+tr {
+    border: 2px solid black;
+    margin-top: 120%;
+    border: none;
+    text-align: left;
+    
+
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: left;
+    background-color: white;
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-left: 13%;
+    padding: 2%;
+    padding-top: 20px;
+    border-radius: 20px;
+    width: 70%;
+}
+
+
+.col-md-6 span{
+    color: red;
+}
+.col-md-12 span{
+    color: red;
+}
+.angers{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.situation{
+    display: flex;
+    flex-grow:2;
 }

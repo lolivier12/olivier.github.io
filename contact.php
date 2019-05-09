@@ -20,14 +20,12 @@ session_start();
 </head>
 
 <body>
-    <header>
+<header>
         <div class="banniere">
             <h1>Olivier Lemattre</br>etudiant webdesign </h1>
-
-        </div>
-        <div class="moi">
             <a href="img/grand.png"><img src="img/moi.png" alt="c est moi : olivier!!" title="Olivier Lemattre"></a>
         </div>
+
     </header>
     <div class="menu">
         <div class="realisation">
@@ -178,7 +176,7 @@ session_start();
                             <label for="inputfiles">Envoyer un fichier</label>
 
                             <input type="file" name="upfiles" id="inputfiles">
-                            <p>Extensions autorisees:<i>.jpeg, .jpg, .png, .pdf</i></p>
+                            <p>Extensions autorisees:<i>.jpeg, .jpg, .png, .pdf, .rar, .zip, .docx</i></p>
                         </div>
                         <!--/*.form-group-->
                     </div>

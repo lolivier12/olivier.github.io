@@ -4,16 +4,15 @@
 body {
 
     background-color: #000000;
-    
+
 }
 
-header {
 
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .banniere {
+    display: flex;
+    justify-content: space-around;
     color: black;
     text-align: center;
     background-color: white;
@@ -22,21 +21,20 @@ header {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    width: 100%;
+    width: 70%;
 }
 
-.moi {
-
-    margin-top: 30px;
-    margin-right: 10%;
+.banniere a {
+    margin-top: 8%;
 }
+
+
 
 
 .menu {
 
     display: flex;
     justify-content: space-around;
-
     font-weight: bold;
     background-color: white;
     border-radius: 20px;
@@ -47,8 +45,7 @@ header {
 .link {
     font-size: 100%;
     color: rgb(14, 10, 10);
-
-    margin-top: 70%;
+    line-height: 110px;
     width: 100px;
     display: block;
 
@@ -161,6 +158,15 @@ header {
     background: url("img/dossiermenu.png") no-repeat;
 }
 
+.adresse {
+    background-color: white;
+
+    width: 70%;
+}
+
+button {
+    margin-left: 90%
+}
 
 
 @media screen and (max-width: 1280px) {

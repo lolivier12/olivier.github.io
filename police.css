@@ -105,6 +105,7 @@
     font-style: normal;
 
 }
+
 .banniere {
     font-family: 'kingthings_callicalligraphica','serif','tahoma';
     font-size: 200%;
@@ -119,4 +120,20 @@
 .liste{
     font-family: 'kingthings_callicalligraphica','serif','tahoma';
     font-size: 140%;
+}
+.dessous{
+    font-family: 'kingthings_callicalligraphica','serif','tahoma';
+    font-size: 100%;
+}
+section{
+    font-family: 'kingthings_callicalligraphica','serif','tahoma';
+    font-size: 120%;
+}
+.row{
+    font-family: 'kingthings_callicalligraphica','serif','tahoma';
+    font-size: 140%;
+}
+button{
+    font-family: 'kingthings_callicalligraphica','serif','tahoma';
+    font-size: 110%;
 }
