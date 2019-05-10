@@ -4,15 +4,17 @@
 body {
 
     background-color: #000000;
-
+    
 }
 
 
+header {
 
-
-.banniere {
     display: flex;
     justify-content: space-around;
+}
+
+.banniere {
     color: black;
     text-align: center;
     background-color: white;
@@ -21,14 +23,15 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
-    width: 70%;
+    width: 100%;
 }
 
-.banniere a {
-    margin-top: 8%;
+.moi {
+
+    margin-top: 60px;
+    margin-right: 5%;
+    padding-right: 80px;
 }
-
-
 
 
 .menu {
@@ -45,7 +48,8 @@ body {
 .link {
     font-size: 100%;
     color: rgb(14, 10, 10);
-    line-height: 110px;
+
+    margin-top: 70%;
     width: 100px;
     display: block;
 
@@ -157,14 +161,12 @@ body {
 .competence:hover {
     background: url("img/dossiermenu.png") no-repeat;
 }
-
-.adresse {
+.adresse{
     background-color: white;
-
+   
     width: 70%;
 }
-
-button {
+button{
     margin-left: 90%
 }
 
